@@ -15,19 +15,27 @@
 
 <body>
     <div id=container>
-        <div class="topnav" id="myTopnav">
+<div class="topnav" id="myTopnav">
            <!-- <div class="logo"><img src="assets/img/logo2.png" alt="logo"></div> -->
                 <a href="index.html" class="logo"><img src="assets/img/logo2.png" alt="logo"></a> 
-                <a href="home.html">Home</a>
-            <!--    <a href="#second">How it works</a>
-                <a href="#third">About</a> -->
+                <a href="index.html"> < Back </a>
+                
                 <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
             </div>
-        <div class="error">
-           <div class="pagenotfound">
-            <h3> 404</h3>
-            <p> Page not found. </p>
+        
+        <div class="login-page">
+            <div class="form">
+                <form class="login-form" method="post" action="postprocess.php" enctype ='multipart/form-data'>
+                    <input type="text" name="name" required placeholder="Full Name" />
+                    <input type="text" name="email" required placeholder="Email" />
+                    <input type="text" name="username" required  placeholder="Username" />
+                    <input type="password" name="password" required placeholder="password" />
+                    <label> Upload Image<input type="file" name="photo"></label><br>
+                    <button type="submit" name="submit" value="submit">Sign up</button>
+                    <p class="message">Already member? <a href="index.html"> Sign In</a></p>
+                </form>
             </div>
+            
         </div>
     <footer>
         <div class="footer">
