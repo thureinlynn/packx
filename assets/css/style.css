@@ -86,8 +86,8 @@ body {
 
 .login-page {
   width: 360px;
-
-  padding: 20% 0 0;
+    
+  padding: 10em 0 0;
   margin: auto;
 }
 .form {
@@ -187,6 +187,7 @@ img.howitworksimg {
     display: inline;
     position: relative;
     min-width: 10%;
+    
 }
 
 .howitworksimg {
@@ -204,6 +205,8 @@ img.howitworksimg {
     padding: 20px 5px;
     
 }
+
+
 
 
 
